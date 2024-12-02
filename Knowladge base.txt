@@ -1,0 +1,58 @@
+Topics
+Main Topics 
+Number Line
+Addition
+Negative numbers  addition
+Subtraction 
+Negative number Subtraction
+Multification 
+Negative number Multification
+Division
+Negative number Division
+
+
+
+Other Topics : This must neeed basic topics knowladge
+Addition					Number Line
+Negative numbers  addition			Addition , Number Line
+Subtraction 					Number Line
+Negative number Subtraction			Negative numbers  addition , Subtraction , Number Line
+Multification 					Multification Table , Addition
+Negative number Multification			Multification 
+Division					Multification , Negative number Multification
+Negative number Division			Division
+
+Perimeter					Addition , Subtraction , Multification, Division			
+Square	Root					Multificatin, Adddition , Subtraction
+Fractions					division , multi addition , Subtraction
+Binomial Expressions 				Multificatin, Adddition , Subtraction , Fractions , division	
+Area						Addition , Subtraction , Multification , Division
+Factors						Addition , Subtraction , Multification, Division , Binomial Expressions 
+Factors	of Quadratic Expressions 		Binomial Expressions , 	Fractions , Square Root	Factors								
+Inverse	Proportions				Addition , Subtraction , Multification, Division			
+Least Common Multiple of Algebraic Expressions	Binomial Expressions ,Addition , Subtraction , Multification, Division				
+Algebraic Fractions				Binomial Expressions , Equations 				
+Percentages					Addition , Subtraction , Multification, Division	
+Equations					Simple Equatons , Simultanious Equations , Qudratic Equations
+Simple Equatons 				Addition , Subtraction , Multification , Division 
+Simultanious Equations				Simple Equations
+Qudratic Equations				Simple Equations ,Simultanious Equations, Fractions ,Binomial Expressions
+Sets						Addition , Subtraction , Multification
+Logarithms	I				Addition , Subtraction , Multification , Division
+Graphs						Addition , Subtraction , Multification 
+Rates						Addition , Subtraction , Multification , Division , Simple Equations , Fractions ,Binomial Expressions
+Fermule						Addition , Subtraction , Multification , Division , Simple Equations , Fractions ,Binomial Expressions
+Algebraic Inequalities				Addition , Subtraction , Multification , Division , Simple Equations , Fractions ,Binomial Expressions
+Frequency Distributions				Addition , Subtraction , Multification , Division , Graphs	
+Suface	Area	and	Volume			Addition , Subtraction , Multification , Division , Simple Equations , Fractions ,Binomial Expressions
+Probability					Addition , Subtraction , Multification , Division , Binomial Expressions
+Real Numbers					Addition , Subtraction , Multification , Division
+Indices and Logarithms I			Addition , Subtraction , Multification , Division ,Binomial Expressions 
+Surface Area of Solids				Addition , Subtraction , Multification , Division , Simple Equations , Fractions ,Binomial Expressions
+Volume of Solids				Addition , Subtraction , Multification , Division , Simple Equations , Fractions ,Binomial Expressions
+Percentages					Addition , Subtraction , Multification , Division
+Share Market					Equations , Addition , Subtraction , Multification , Division
+Formulae					Binomial Expressions , Equations 
+Matrices					Addition , Subtraction , Multification , Division
+Inequalities					Equations
+Statistics
