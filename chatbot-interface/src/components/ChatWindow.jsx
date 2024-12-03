@@ -1,49 +1,51 @@
-import React, { useState } from "react";
-import ChatInput from "./ChatInput";
-import MessageBubble from "./MessageBubble";
+import React, { useState } from 'react';
+import axios from 'axios';
 
-const ChatWindow = () => {
-    const [messages, setMessages] = useState([]);
+const Chatbot = () => {
+  const [messages, setMessages] = useState([]);
+  const [userInput, setUserInput] = useState("");
 
-    const handleSendMessage = (message) => {
-        setMessages([...messages, { text: message, sender: "user" }]);
+  const handleSendMessage = async () => {
+    if (userInput.trim()) {
+      const newMessages = [...messages, { text: userInput, sender: 'user' }];
+      setMessages(newMessages);
+      setUserInput("");  // Clear input field
 
-        // Simulate bot response (replace with API call)
-        setTimeout(() => {
-            setMessages((prevMessages) => [
-                ...prevMessages,
-                { text: `Bot says: ${message}`, sender: "bot" },
-            ]);
-        }, 1000);
-    };
+      try {
+        // Sending user input to FastAPI backend
+        const response = await axios.post('http://localhost:8000/chatbot/', {
+          message: userInput
+        });
 
-    return (
-        <div style={styles.chatWindow}>
-            <div style={styles.messageContainer}>
-                {messages.map((msg, index) => (
-                    <MessageBubble key={index} message={msg.text} sender={msg.sender} />
-                ))}
-            </div>
-            <ChatInput onSendMessage={handleSendMessage} />
-        </div>
-    );
+        const botResponse = response.data.response;
+        setMessages([...newMessages, { text: botResponse, sender: 'bot' }]);
+      } catch (error) {
+        console.error("Error sending message to FastAPI:", error);
+      }
+    }
+  };
+
+  return (
+    <div style={{ padding: "20px", maxWidth: "400px", margin: "0 auto", border: "1px solid #ccc", borderRadius: "8px" }}>
+      <div style={{ height: "300px", overflowY: "scroll", marginBottom: "10px" }}>
+        {messages.map((msg, index) => (
+          <div key={index} style={{ padding: "10px", marginBottom: "10px", backgroundColor: msg.sender === "user" ? "#0084ff" : "#e4e6eb", borderRadius: "8px", color: msg.sender === "user" ? "#fff" : "#000", textAlign: msg.sender === "user" ? "right" : "left" }}>
+            {msg.text}
+          </div>
+        ))}
+      </div>
+      <input 
+        type="text" 
+        value={userInput} 
+        onChange={(e) => setUserInput(e.target.value)} 
+        placeholder="Type a message..." 
+        style={{ padding: "10px", width: "80%" }} 
+      />
+      <button onClick={handleSendMessage} style={{ padding: "10px", width: "15%" }}>
+        Send
+      </button>
+    </div>
+  );
 };
 
-const styles = {
-    chatWindow: {
-        display: "flex",
-        flexDirection: "column",
-        height: "80vh",
-        width: "400px",
-        border: "1px solid #ccc",
-        borderRadius: "8px",
-        overflow: "hidden",
-    },
-    messageContainer: {
-        flex: 1,
-        overflowY: "auto",
-        padding: "10px",
-    },
-};
-
-export default ChatWindow;
+export default Chatbot;
