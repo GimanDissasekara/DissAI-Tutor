@@ -56,3 +56,4 @@ Formulae					Binomial Expressions , Equations
 Matrices					Addition , Subtraction , Multification , Division
 Inequalities					Equations
 Statistics
+Limit
