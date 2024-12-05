@@ -1,0 +1,24 @@
+ළමුන් විසින් ඔහු ලබා ගත් ලකුනු ඇතුලත් කරයි
+ඔහු දැනට හදාරා , මාස්ටර් තත්වයට පැමිණ ඇති විශයන් ඇතුළත් කරයි ,
+ඔහු දැනට අපහසු වී ඇති විශයමාතෘකාව ඇතුලත් කරයි
+පද්දතිය තුල මාතෘකා 1 , 2 ,3 ,4 ලෙස එහි ඇති අසීරුතාවය මත වර්ග කර ඇත. 1 කණ්ඩායමේ මාතෘකා සියල්ල හැකි අයෙක් ගේ ලකුණු 35 ට වැඩි විය යුතු අතර කෙනෙක් ගේ ලකුනු 35ට අඩුනම් ඔහු එම කණ්ඩායමට අයත් මාතෘකා නැවත හැදෑරිය යුතුය.
+2 කණ්ඩායමේ මාතෘකා සියල්ල හැකි අයෙක් ගේ ලකුණු 50 ට වැඩි විය යුතු අතර කෙනෙක් ගේ ලකුනු 50ට අඩුනම් ඔහු එම කණ්ඩායමට අයත් මාතෘකා නැවත හැදෑරිය යුතුය.
+3 කණ්ඩායමේ මාතෘකා සියල්ල හැකි අයෙක් ගේ ලකුණු 70 ට වැඩි විය යුතු අතර කෙනෙක් ගේ ලකුනු 70ට අඩුනම් ඔහු එම කණ්ඩායමට අයත් මාතෘකා නැවත හැදෑරිය යුතුය.
+4 කණ්ඩායමේ මාතෘකා සියල්ල හැකි අයෙක් ගේ ලකුණු 90 ට වැඩි විය යුතු අතර කෙනෙක් ගේ ලකුනු 90 සීමාව පසු කර නැතිනම් ඔහු එම කණ්ඩායමට අයත් මාතෘකා නැවත හැදෑරිය යුතුය.
+මෙසේ හැදෑරිය යුතු මාතෘකා අතරින් සිසුවා විසින් ආදානය කරන ලද විශය මාතෘකා ද ඇතුලත් නම් ඒවා විශේශයෙන් පෙන්වා දිය යුතු අතර ,එම විශයන් ගේ හොඳ මට්ටමකට පැමිණීමට නම් ඒ සඳහා ඊට පෙර හැදෑරිය යුතු මාතෘකා සියල්ල ලයිස්තුවක් ලෙස පද්දතිය යෝජනා කළ යුතුය.
+සිසුවා ට යෝජනා කරන ලද මාතෘකා අතර ඔහු හදාරන ලද මාතෘකා ඇති නම් ,ඊලගට ඔහු හැදෑරීම ආරම්භ කළ යුතු මාතෘකා 2ක් පද්දතිය යෝජනා කල යුතුය.
+පද්දතිය විසින් විශයන් ආදානයේදී ඒ ආදානය කරන වචනය හා සමාන වචන පහලින් පෙන්වීමට හැකි වන ලෙස frontend එක සැකසිය යුතුය
+
+
+Inputs:
+The child enters the marks he has obtained
+He enters the subjects he has studied and has reached the master level,
+He enters the subject topic that is currently difficult
+Rules:
+The topics are classified as 1, 2, 3, 4 in the system according to their difficulty. In group 1, all the topics of a person who can do it must be more than 35 points, and if someone's score is less than 35, he must re-study the topics belonging to that group.
+In group 2, all the topics of a person who can do it must be more than 50 points, and if someone's score is less than 50, he must re-study the topics belonging to that group.
+In group 3, all the topics of a person who can do it must be more than 70 points, and if someone's score is less than 70, he must re-study the topics belonging to that group.
+All the topics in group 4 should be more than 90 points for a person, and if someone's score does not exceed 90 points, he should re-study the topics belonging to that group.
+If the topics to be studied include the subject topics entered by the student, they should be specifically indicated, and in order to reach a good level in those subjects, the system should suggest all the topics that should be studied before as a list.
+If there are topics that he has studied among the topics suggested to the student, the system should suggest 2 topics that he should start studying next.
+The frontend should be configured so that the system can display words similar to the word entered below when entering the subject.
